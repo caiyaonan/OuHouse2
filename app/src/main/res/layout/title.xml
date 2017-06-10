@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2E68AA"
+    android:layout_marginTop="0dp">
+
+    <EditText
+        android:id="@+id/search_edit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:hint="请输入关键字"
+        style="@style/Widget.AppCompat.EditText"
+        android:inputType="text"
+        android:singleLine="true"
+        android:selectAllOnFocus="true" />
+
+    <ImageButton
+        android:id="@+id/search_button"
+        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/title_search_normal"
+        android:background="#2E68AA"/>
+</LinearLayout>
